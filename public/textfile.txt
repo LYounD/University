@@ -1,0 +1,1 @@
+fopen()\wn\wnfopen()
