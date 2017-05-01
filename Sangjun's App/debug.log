@@ -1,0 +1,932 @@
+- 15:43:23.078 INFO: --------------------------------------------------------
+- 15:43:23.078 INFO: Started application
+- 15:43:23.078 INFO: Logging to: C:\Users\Taeuk\Desktop\Sangun's App\debug.log
+- 15:43:23.078 INFO: Log level = DEBUG4
+- 15:43:23.078 INFO: Starting Mongoose 3.9c web server
+- 15:43:23.078 INFO: WWW directory: C:\Users\Taeuk\Desktop\Sangun's App\www
+- 15:43:23.078 INFO: Index files: index.html,index.php
+- 15:43:23.078 INFO: CGI interpreter: C:\Users\Taeuk\Desktop\Sangun's App\php\php-cgi.exe
+- 15:43:23.078 INFO: CGI pattern: **.php$
+- 15:43:23.094 INFO: Hide files patterns: 
+- 15:43:23.094 INFO: CGI environment variables set: TMP=C:\Users\Taeuk\AppData\Local\Temp\,TEMP=C:\Users\Taeuk\AppData\Local\Temp\,TMPDIR=C:\Users\Taeuk\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 15:43:24.141 INFO: Web server url: http://127.0.0.1:55360/
+- 15:43:24.141 INFO: remote_debugging_port = 54148
+- 15:43:24.141 DEBUG: Command line string for the browser process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --remote-debugging-port=54148
+- 15:43:24.219 DEBUG: App::OnContextInitialized()
+- 15:43:24.219 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 15:43:24.219 DEBUG: Window max width/height = 1842/984
+- 15:43:24.219 DEBUG: GetBrowserWindow(): not found, hwnd = 263502
+- 15:43:24.219 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:43:24.219 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:43:24.219 DEBUG: StoreBrowserWindow(): hwnd = 263502
+- 15:43:24.313 DEBUG: ClientHandler::OnAfterCreated()
+- 15:43:24.313 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:43:24.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=gpu-process --channel="10660.0.1627823146\1678624696" --no-sandbox --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4590 --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" /prefetch:822062411
+- 15:43:24.313 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:43:24.015 DEBUG: Command line string for the renderer process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="10660.1.93347489\1502004682" /prefetch:673131151
+- 15:43:24.047 DEBUG: OnBrowserCreated()
+- 15:43:24.797 INFO: GET 200 /
+- 15:43:24.797 INFO: GET 200 /jquery.cookie.js
+- 15:43:24.406 DEBUG: OnContextCreated()
+- 15:43:24.813 INFO: GET 200 /com.js
+[0501/154325:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 15:43:25.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 15:43:25.875 INFO: GET 200 /init.php
+- 15:43:54.000 DEBUG: Command line string for the utility process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=utility --channel="10660.2.2093808979\1350334503" --lang=en-US --no-sandbox --no-sandbox --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" /prefetch:-645351001
+- 15:51:46.922 DEBUG: F12 pressed, opening developer tools
+- 15:51:46.938 DEBUG: ClientHandler::OnAfterCreated()
+- 15:51:46.938 DEBUG: GetBrowserWindow(): not found, hwnd = 984500
+- 15:51:46.938 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 15:51:46.938 DEBUG: StoreBrowserWindow(): hwnd = 984500
+- 15:51:46.938 DEBUG: Centering popup window relative to its parent
+- 15:51:46.953 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:51:46.000 DEBUG: Command line string for the renderer process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="10660.3.608926246\1073421072" /prefetch:673131151
+- 15:51:46.032 DEBUG: OnBrowserCreated()
+- 15:51:46.063 DEBUG: OnContextCreated()
+- 15:51:47.250 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 15:52:30.047 DEBUG: OnBeforeClose() hwnd=984500
+- 15:52:30.047 DEBUG: RemoveBrowserWindow(): hwnd = 984500
+[0501/155230:ERROR:gles2_cmd_decoder.cc(13099)] [.RenderWorker-049263D8]GL ERROR :GL_INVALID_VALUE : glCopySubTextureCHROMIUM: source texture has no level 0
+[0501/155230:ERROR:gles2_cmd_decoder.cc(13099)] [.RenderWorker-049263D8]GL ERROR :GL_INVALID_VALUE : glCopySubTextureCHROMIUM: source texture has no level 0
+- 15:52:33.719 DEBUG: F5 pressed, reloading page
+- 15:52:33.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 15:52:33.437 DEBUG: OnContextCreated()
+- 15:52:33.828 INFO: GET 200 /
+- 15:52:33.828 INFO: GET 200 /jquery.cookie.js
+- 15:52:33.828 INFO: GET 200 /com.js
+[0501/155234:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 15:52:34.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 15:52:34.047 INFO: GET 200 /init.php
+- 15:52:44.438 DEBUG: F5 pressed, reloading page
+- 15:52:44.438 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 15:52:44.156 DEBUG: OnContextCreated()
+- 15:52:44.547 INFO: GET 200 /
+- 15:52:44.563 INFO: GET 200 /com.js
+- 15:52:44.547 INFO: GET 200 /jquery.cookie.js
+[0501/155246:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 15:52:46.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 15:52:46.453 INFO: GET 200 /init.php
+- 15:53:08.297 DEBUG: F5 pressed, reloading page
+- 15:53:08.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 15:53:08.281 DEBUG: OnContextCreated()
+- 15:53:08.688 INFO: GET 200 /
+- 15:53:08.688 INFO: GET 200 /jquery.cookie.js
+- 15:53:08.688 INFO: GET 200 /com.js
+[0501/155309:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 15:53:09.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 15:53:09.719 INFO: GET 200 /init.php
+- 15:53:27.703 DEBUG: F5 pressed, reloading page
+- 15:53:27.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 15:53:27.422 DEBUG: OnContextCreated()
+- 15:53:27.828 INFO: GET 200 /
+- 15:53:27.828 INFO: GET 200 /jquery.cookie.js
+- 15:53:27.828 INFO: GET 200 /com.js
+[0501/155328:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 15:53:28.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 15:53:28.860 INFO: GET 200 /init.php
+- 15:54:02.469 DEBUG: F5 pressed, reloading page
+- 15:54:02.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 15:54:02.172 DEBUG: OnContextCreated()
+- 15:54:02.578 INFO: GET 200 /
+- 15:54:02.578 INFO: GET 200 /com.js
+- 15:54:02.578 INFO: GET 200 /jquery.cookie.js
+[0501/155403:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 15:54:03.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 15:54:04.672 INFO: GET 200 /init.php
+[0501/155405:INFO:CONSOLE(4)] "Uncaught ReferenceError: js_value is not defined", source: http://127.0.0.1:55360/com.js (4)
+- 15:58:18.391 DEBUG: F5 pressed, reloading page
+- 15:58:18.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 15:58:18.109 DEBUG: OnContextCreated()
+- 15:58:18.516 INFO: GET 200 /
+- 15:58:18.516 INFO: GET 200 /jquery.cookie.js
+- 15:58:18.516 INFO: GET 200 /com.js
+[0501/155819:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 15:58:19.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 15:58:19.688 INFO: GET 200 /init.php
+- 15:58:23.000 DEBUG: F5 pressed, reloading page
+- 15:58:23.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 15:58:23.703 DEBUG: OnContextCreated()
+- 15:58:24.094 INFO: GET 200 /
+- 15:58:24.110 INFO: GET 200 /com.js
+- 15:58:24.110 INFO: GET 200 /jquery.cookie.js
+[0501/155825:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 15:58:25.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 15:58:25.250 INFO: GET 200 /init.php
+- 16:00:36.141 DEBUG: F5 pressed, reloading page
+- 16:00:36.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:00:36.844 DEBUG: OnContextCreated()
+- 16:00:36.250 INFO: GET 200 /
+- 16:00:36.266 INFO: GET 200 /jquery.cookie.js
+- 16:00:36.266 INFO: GET 200 /com.js
+[0501/160037:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:00:37.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:00:37.266 INFO: GET 200 /init.php
+- 16:00:48.469 DEBUG: F5 pressed, reloading page
+- 16:00:48.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:00:48.172 DEBUG: OnContextCreated()
+- 16:00:48.578 INFO: GET 200 /
+- 16:00:48.578 INFO: GET 200 /jquery.cookie.js
+- 16:00:48.578 INFO: GET 200 /com.js
+[0501/160049:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:00:49.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:00:49.719 INFO: GET 200 /init.php
+- 16:00:57.281 DEBUG: F5 pressed, reloading page
+- 16:00:57.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:00:57.984 DEBUG: OnContextCreated()
+- 16:00:57.391 INFO: GET 200 /
+- 16:00:57.391 INFO: GET 200 /jquery.cookie.js
+- 16:00:57.391 INFO: GET 200 /com.js
+[0501/160058:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:00:58.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:00:58.438 INFO: GET 200 /init.php
+- 16:01:05.594 DEBUG: F5 pressed, reloading page
+- 16:01:05.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:01:05.297 DEBUG: OnContextCreated()
+- 16:01:05.688 INFO: GET 200 /
+- 16:01:05.688 INFO: GET 200 /com.js
+- 16:01:05.688 INFO: GET 200 /jquery.cookie.js
+[0501/160106:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:01:06.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:01:06.844 INFO: GET 200 /init.php
+- 16:01:34.610 DEBUG: F5 pressed, reloading page
+- 16:01:34.610 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:01:34.312 DEBUG: OnContextCreated()
+- 16:01:34.719 INFO: GET 200 /
+- 16:01:34.719 INFO: GET 200 /com.js
+- 16:01:34.719 INFO: GET 200 /jquery.cookie.js
+[0501/160135:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:01:35.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:01:35.875 INFO: GET 200 /init.php
+- 16:01:42.813 DEBUG: F5 pressed, reloading page
+- 16:01:42.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:01:42.515 DEBUG: OnContextCreated()
+- 16:01:42.922 INFO: GET 200 /
+- 16:01:42.922 INFO: GET 200 /com.js
+- 16:01:42.922 INFO: GET 200 /jquery.cookie.js
+[0501/160143:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:01:43.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:01:43.078 INFO: GET 200 /init.php
+- 16:02:30.953 DEBUG: F5 pressed, reloading page
+- 16:02:30.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:02:30.672 DEBUG: OnContextCreated()
+- 16:02:30.063 INFO: GET 200 /
+- 16:02:30.078 INFO: GET 200 /com.js
+- 16:02:30.078 INFO: GET 200 /jquery.cookie.js
+[0501/160232:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:02:32.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:02:32.235 INFO: GET 200 /init.php
+- 16:02:56.438 DEBUG: F12 pressed, opening developer tools
+- 16:02:56.453 DEBUG: ClientHandler::OnAfterCreated()
+- 16:02:56.453 DEBUG: GetBrowserWindow(): not found, hwnd = 7537992
+- 16:02:56.453 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 16:02:56.453 DEBUG: StoreBrowserWindow(): hwnd = 7537992
+- 16:02:56.453 DEBUG: Centering popup window relative to its parent
+- 16:02:56.469 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:02:56.000 DEBUG: Command line string for the renderer process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="10660.4.1590315026\1222323686" /prefetch:673131151
+- 16:02:56.031 DEBUG: OnBrowserCreated()
+- 16:02:56.047 DEBUG: OnContextCreated()
+[0501/160256:ERROR:CONSOLE(61)] "Uncaught TypeError: Cannot read property 'dispatchMessage' of undefined", source:  (61)
+- 16:02:57.110 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 16:02:59.797 DEBUG: OnBeforeClose() hwnd=7537992
+- 16:02:59.797 DEBUG: RemoveBrowserWindow(): hwnd = 7537992
+- 16:02:59.922 DEBUG: OnBrowserDestroyed()
+- 16:03:36.438 DEBUG: F5 pressed, reloading page
+- 16:03:36.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:03:36.156 DEBUG: OnContextCreated()
+- 16:03:36.563 INFO: GET 200 /
+- 16:03:36.563 INFO: GET 200 /jquery.cookie.js
+- 16:03:36.563 INFO: GET 200 /com.js
+[0501/160339:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:03:39.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:03:39.250 INFO: GET 200 /init.php
+- 16:03:47.297 DEBUG: F5 pressed, reloading page
+- 16:03:47.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:03:47.015 DEBUG: OnContextCreated()
+- 16:03:47.406 INFO: GET 200 /
+- 16:03:47.406 INFO: GET 200 /jquery.cookie.js
+- 16:03:47.406 INFO: GET 200 /com.js
+[0501/160348:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:03:48.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:03:48.656 INFO: GET 200 /init.php
+- 16:03:49.594 DEBUG: F12 pressed, opening developer tools
+- 16:03:49.610 DEBUG: ClientHandler::OnAfterCreated()
+- 16:03:49.610 DEBUG: GetBrowserWindow(): not found, hwnd = 4130860
+- 16:03:49.610 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 16:03:49.610 DEBUG: StoreBrowserWindow(): hwnd = 4130860
+- 16:03:49.610 DEBUG: Centering popup window relative to its parent
+- 16:03:49.625 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:03:49.000 DEBUG: Command line string for the renderer process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="10660.5.2066305026\68976820" /prefetch:673131151
+- 16:03:49.032 DEBUG: OnBrowserCreated()
+- 16:03:49.047 DEBUG: OnContextCreated()
+- 16:03:49.906 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 16:03:52.485 DEBUG: OnBeforeClose() hwnd=4130860
+- 16:03:52.485 DEBUG: RemoveBrowserWindow(): hwnd = 4130860
+- 16:06:13.375 DEBUG: F5 pressed, reloading page
+- 16:06:13.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:06:13.078 DEBUG: OnContextCreated()
+- 16:06:13.485 INFO: GET 200 /
+- 16:06:13.485 INFO: GET 200 /jquery.cookie.js
+- 16:06:13.485 INFO: GET 200 /com.js
+[0501/160614:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:06:14.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:06:14.953 INFO: GET 200 /init.php
+- 16:06:27.016 DEBUG: F5 pressed, reloading page
+- 16:06:27.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:06:28.719 DEBUG: OnContextCreated()
+- 16:06:28.125 INFO: GET 200 /
+- 16:06:28.125 INFO: GET 200 /com.js
+- 16:06:28.125 INFO: GET 200 /jquery.cookie.js
+[0501/160629:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:06:29.188 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:06:29.281 INFO: GET 200 /init.php
+- 16:06:39.906 DEBUG: F5 pressed, reloading page
+- 16:06:39.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:06:39.625 DEBUG: OnContextCreated()
+- 16:06:39.016 INFO: GET 200 /
+- 16:06:39.031 INFO: GET 200 /com.js
+- 16:06:39.031 INFO: GET 200 /jquery.cookie.js
+[0501/160641:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:06:41.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:06:41.219 INFO: GET 200 /init.php
+- 16:07:05.313 DEBUG: F5 pressed, reloading page
+- 16:07:05.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:07:05.031 DEBUG: OnContextCreated()
+- 16:07:05.422 INFO: GET 200 /
+- 16:07:05.438 INFO: GET 200 /jquery.cookie.js
+- 16:07:05.438 INFO: GET 200 /com.js
+[0501/160710:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:07:10.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:07:10.031 INFO: GET 200 /init.php
+- 16:07:25.531 DEBUG: F5 pressed, reloading page
+- 16:07:25.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:07:25.250 DEBUG: OnContextCreated()
+- 16:07:25.641 INFO: GET 200 /
+- 16:07:25.641 INFO: GET 200 /jquery.cookie.js
+- 16:07:25.641 INFO: GET 200 /com.js
+[0501/160726:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:07:26.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:07:26.797 INFO: GET 200 /init.php
+- 16:07:39.203 DEBUG: F5 pressed, reloading page
+- 16:07:39.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:07:39.922 DEBUG: OnContextCreated()
+- 16:07:39.313 INFO: GET 200 /
+- 16:07:39.313 INFO: GET 200 /jquery.cookie.js
+- 16:07:39.313 INFO: GET 200 /com.js
+[0501/160740:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:07:40.485 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:07:40.578 INFO: GET 200 /init.php
+- 16:07:45.719 DEBUG: F5 pressed, reloading page
+- 16:07:45.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:07:45.422 DEBUG: OnContextCreated()
+- 16:07:45.828 INFO: GET 200 /
+- 16:07:45.828 INFO: GET 200 /com.js
+- 16:07:45.828 INFO: GET 200 /jquery.cookie.js
+[0501/160746:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:07:46.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:07:46.735 INFO: GET 200 /init.php
+- 16:07:49.750 DEBUG: F5 pressed, reloading page
+- 16:07:49.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:07:49.453 DEBUG: OnContextCreated()
+- 16:07:49.844 INFO: GET 200 /
+- 16:07:49.860 INFO: GET 200 /jquery.cookie.js
+- 16:07:49.860 INFO: GET 200 /com.js
+[0501/160754:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:07:54.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:07:54.875 INFO: GET 200 /init.php
+- 16:07:58.875 DEBUG: F5 pressed, reloading page
+- 16:07:58.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:07:58.594 DEBUG: OnContextCreated()
+- 16:07:58.985 INFO: GET 200 /
+- 16:07:58.985 INFO: GET 200 /com.js
+- 16:07:58.985 INFO: GET 200 /jquery.cookie.js
+[0501/160800:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:08:00.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:08:00.391 INFO: GET 200 /init.php
+[0501/160948:INFO:CONSOLE(43)] "dddd,dd,5/1/2017, 4:09:48 PM", source: http://127.0.0.1:55360/com.js (43)
+[0501/160948:INFO:CONSOLE(127)] "0_title=dddd & ", source: http://127.0.0.1:55360/com.js (127)
+- 16:09:48.297 INFO: GET 200 /sangjun.php
+- 16:10:46.922 DEBUG: F5 pressed, reloading page
+- 16:10:46.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:10:46.625 DEBUG: OnContextCreated()
+- 16:10:46.016 INFO: GET 200 /
+- 16:10:46.031 INFO: GET 200 /jquery.cookie.js
+- 16:10:46.031 INFO: GET 200 /com.js
+[0501/161047:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:10:48.203 INFO: GET 200 /init.php
+- 16:10:51.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:11:03.891 DEBUG: F5 pressed, reloading page
+- 16:11:03.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:11:03.609 DEBUG: OnContextCreated()
+- 16:11:03.000 INFO: GET 200 /
+- 16:11:03.000 INFO: GET 200 /jquery.cookie.js
+- 16:11:03.000 INFO: GET 200 /com.js
+[0501/161104:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:11:05.203 INFO: GET 200 /init.php
+- 16:11:06.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:13:29.375 DEBUG: F5 pressed, reloading page
+- 16:13:29.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:13:29.094 DEBUG: OnContextCreated()
+- 16:13:29.500 INFO: GET 200 /
+- 16:13:29.500 INFO: GET 200 /jquery.cookie.js
+- 16:13:29.500 INFO: GET 200 /com.js
+[0501/161330:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:13:30.688 INFO: GET 200 /init.php
+- 16:13:32.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+[0501/161336:INFO:CONSOLE(43)] "dddd,d,5/1/2017, 4:13:36 PM", source: http://127.0.0.1:55360/com.js (43)
+[0501/161336:INFO:CONSOLE(127)] "0_title=dddd & ", source: http://127.0.0.1:55360/com.js (127)
+- 16:13:36.235 INFO: GET 200 /sangjun.php
+- 16:15:01.188 DEBUG: F5 pressed, reloading page
+- 16:15:01.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:15:01.906 DEBUG: OnContextCreated()
+- 16:15:01.297 INFO: GET 200 /
+- 16:15:01.297 INFO: GET 200 /jquery.cookie.js
+- 16:15:01.297 INFO: GET 200 /com.js
+[0501/161502:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:15:02.594 INFO: GET 200 /init.php
+- 16:15:04.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+[0501/161508:INFO:CONSOLE(43)] "dd,ddd,5/1/2017, 4:15:08 PM", source: http://127.0.0.1:55360/com.js (43)
+[0501/161508:INFO:CONSOLE(127)] "0_title=dd & ", source: http://127.0.0.1:55360/com.js (127)
+- 16:15:08.735 INFO: GET 200 /sangjun.php
+- 16:15:36.438 DEBUG: F5 pressed, reloading page
+- 16:15:36.438 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:15:36.156 DEBUG: OnContextCreated()
+- 16:15:36.563 INFO: GET 200 /
+- 16:15:36.563 INFO: GET 200 /com.js
+- 16:15:36.563 INFO: GET 200 /jquery.cookie.js
+[0501/161537:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:15:37.047 INFO: GET 200 /init.php
+- 16:15:39.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+[0501/161540:INFO:CONSOLE(43)] ",dd,5/1/2017, 4:15:40 PM", source: http://127.0.0.1:55360/com.js (43)
+[0501/161540:INFO:CONSOLE(127)] "0_title= & ", source: http://127.0.0.1:55360/com.js (127)
+- 16:15:41.156 INFO: GET 200 /sangjun.php
+[0501/161553:INFO:CONSOLE(43)] ",dd,5/1/2017, 4:15:40 PM,,dd,5/1/2017, 4:15:53 PM", source: http://127.0.0.1:55360/com.js (43)
+[0501/161553:INFO:CONSOLE(127)] "1_title= & ", source: http://127.0.0.1:55360/com.js (127)
+- 16:15:53.953 INFO: GET 200 /sangjun.php
+[0501/161736:INFO:CONSOLE(43)] ",dd,5/1/2017, 4:15:40 PM,,dd,5/1/2017, 4:15:53 PM,dd,dd,5/1/2017, 4:17:36 PM", source: http://127.0.0.1:55360/com.js (43)
+[0501/161736:INFO:CONSOLE(127)] "2_title=dd & ", source: http://127.0.0.1:55360/com.js (127)
+- 16:17:36.719 INFO: GET 200 /sangjun.php
+- 16:20:32.828 DEBUG: F5 pressed, reloading page
+- 16:20:32.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:20:32.547 DEBUG: OnContextCreated()
+- 16:20:32.938 INFO: GET 200 /
+- 16:20:32.953 INFO: GET 200 /jquery.cookie.js
+- 16:20:32.953 INFO: GET 200 /com.js
+[0501/162033:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:20:34.188 INFO: GET 200 /init.php
+- 16:20:35.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+[0501/162044:INFO:CONSOLE(43)] "d,ddd,5/1/2017, 4:20:44 PM", source: http://127.0.0.1:55360/com.js (43)
+[0501/162044:INFO:CONSOLE(83)] "0_title=d & ", source: http://127.0.0.1:55360/com.js (83)
+[0501/162044:INFO:CONSOLE(93)] "0_text=ddd & ", source: http://127.0.0.1:55360/com.js (93)
+[0501/162044:INFO:CONSOLE(103)] "0_date=5/1/2017, 4:20:44 PM & ", source: http://127.0.0.1:55360/com.js (103)
+[0501/162044:INFO:CONSOLE(129)] "Uncaught ReferenceError: cookie_adddate is not defined", source: http://127.0.0.1:55360/com.js (129)
+- 16:22:59.360 DEBUG: F5 pressed, reloading page
+- 16:22:59.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:22:59.078 DEBUG: OnContextCreated()
+- 16:22:59.469 INFO: GET 200 /
+- 16:22:59.469 INFO: GET 200 /jquery.cookie.js
+- 16:22:59.469 INFO: GET 200 /com.js
+[0501/162300:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:23:00.610 INFO: GET 200 /init.php
+- 16:23:02.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+[0501/162307:INFO:CONSOLE(43)] "dd,ddd,5/1/2017, 4:23:07 PM", source: http://127.0.0.1:55360/com.js (43)
+[0501/162307:INFO:CONSOLE(83)] "0_title=dd & ", source: http://127.0.0.1:55360/com.js (83)
+[0501/162307:INFO:CONSOLE(93)] "0_text=ddd & ", source: http://127.0.0.1:55360/com.js (93)
+[0501/162307:INFO:CONSOLE(103)] "0_date=5/1/2017, 4:23:07 PM & ", source: http://127.0.0.1:55360/com.js (103)
+[0501/162307:INFO:CONSOLE(129)] "Uncaught ReferenceError: cookie_adddate is not defined", source: http://127.0.0.1:55360/com.js (129)
+[0501/162308:INFO:CONSOLE(43)] "dd,ddd,5/1/2017, 4:23:07 PM,dd,ddd,5/1/2017, 4:23:08 PM", source: http://127.0.0.1:55360/com.js (43)
+[0501/162308:INFO:CONSOLE(83)] "0_title=dd & 1_title=dd & ", source: http://127.0.0.1:55360/com.js (83)
+[0501/162308:INFO:CONSOLE(93)] "0_text=ddd & 1_text=ddd & ", source: http://127.0.0.1:55360/com.js (93)
+[0501/162308:INFO:CONSOLE(103)] "0_date=5/1/2017, 4:23:07 PM & 1_date=5/1/2017, 4:23:08 PM & ", source: http://127.0.0.1:55360/com.js (103)
+[0501/162308:INFO:CONSOLE(129)] "Uncaught ReferenceError: cookie_adddate is not defined", source: http://127.0.0.1:55360/com.js (129)
+- 16:23:09.094 DEBUG: F12 pressed, opening developer tools
+- 16:23:10.110 DEBUG: ClientHandler::OnAfterCreated()
+- 16:23:10.110 DEBUG: GetBrowserWindow(): not found, hwnd = 19203604
+- 16:23:10.110 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 16:23:10.110 DEBUG: StoreBrowserWindow(): hwnd = 19203604
+- 16:23:10.125 DEBUG: Centering popup window relative to its parent
+- 16:23:10.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:23:10.000 DEBUG: Command line string for the renderer process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="10660.6.1803106850\567006715" /prefetch:673131151
+- 16:23:10.031 DEBUG: OnBrowserCreated()
+- 16:23:10.250 DEBUG: F12 pressed, opening developer tools
+- 16:23:10.047 DEBUG: OnContextCreated()
+- 16:23:10.266 DEBUG: ClientHandler::OnAfterCreated()
+- 16:23:10.266 DEBUG: GetBrowserWindow(): not found, hwnd = 18745478
+- 16:23:10.281 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 16:23:10.281 DEBUG: StoreBrowserWindow(): hwnd = 18745478
+- 16:23:10.281 DEBUG: Centering popup window relative to its parent
+- 16:23:10.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:23:10.000 DEBUG: Command line string for the renderer process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="10660.7.825575912\262082560" /prefetch:673131151
+- 16:23:10.031 DEBUG: OnBrowserCreated()
+- 16:23:10.047 DEBUG: OnContextCreated()
+- 16:23:10.453 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 16:23:10.610 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 16:23:12.891 DEBUG: OnBeforeClose() hwnd=18745478
+- 16:23:12.891 DEBUG: RemoveBrowserWindow(): hwnd = 18745478
+- 16:23:12.516 DEBUG: OnBrowserDestroyed()
+- 16:23:13.563 DEBUG: OnBeforeClose() hwnd=19203604
+- 16:23:13.563 DEBUG: RemoveBrowserWindow(): hwnd = 19203604
+- 16:23:13.359 DEBUG: OnBrowserDestroyed()
+[0501/162313:WARNING:raw_channel_win.cc(532)] WriteFile: �������� ������ ���Դϴ�. (0xE8)
+- 16:23:44.891 DEBUG: F12 pressed, opening developer tools
+- 16:23:44.906 DEBUG: ClientHandler::OnAfterCreated()
+- 16:23:44.906 DEBUG: GetBrowserWindow(): not found, hwnd = 19859590
+- 16:23:44.922 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 16:23:44.922 DEBUG: StoreBrowserWindow(): hwnd = 19859590
+- 16:23:44.922 DEBUG: Centering popup window relative to its parent
+- 16:23:44.938 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:23:44.000 DEBUG: Command line string for the renderer process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="10660.8.913100830\548498762" /prefetch:673131151
+- 16:23:44.031 DEBUG: OnBrowserCreated()
+- 16:23:44.047 DEBUG: OnContextCreated()
+- 16:23:45.235 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 16:23:53.516 DEBUG: OnBeforeClose() hwnd=19859590
+- 16:23:53.516 DEBUG: RemoveBrowserWindow(): hwnd = 19859590
+- 16:23:54.781 DEBUG: F12 pressed, opening developer tools
+- 16:23:54.797 DEBUG: ClientHandler::OnAfterCreated()
+- 16:23:54.797 DEBUG: GetBrowserWindow(): not found, hwnd = 24708642
+- 16:23:54.797 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 16:23:54.797 DEBUG: StoreBrowserWindow(): hwnd = 24708642
+- 16:23:54.797 DEBUG: Centering popup window relative to its parent
+- 16:23:54.813 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:23:54.000 DEBUG: Command line string for the renderer process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="10660.9.1590100677\1797661594" /prefetch:673131151
+- 16:23:54.031 DEBUG: OnBrowserCreated()
+- 16:23:54.062 DEBUG: OnContextCreated()
+- 16:23:55.110 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 16:24:38.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55360/
+- 16:24:38.984 DEBUG: OnContextCreated()
+- 16:24:38.391 INFO: GET 304 /jquery.cookie.js
+- 16:24:38.391 INFO: GET 200 /
+- 16:24:38.391 INFO: GET 200 /com.js
+[0501/162438:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55360/com.js (1)
+- 16:24:38.906 INFO: GET 200 /init.php
+- 16:24:40.235 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55360/
+- 16:24:44.953 DEBUG: OnBeforeClose() hwnd=24708642
+- 16:24:44.953 DEBUG: RemoveBrowserWindow(): hwnd = 24708642
+- 16:24:46.610 DEBUG: WM_DESTROY
+- 16:24:46.610 DEBUG: RemoveBrowserWindow(): hwnd = 263502
+- 16:24:46.610 INFO: Stopping Mongoose web server
+- 16:24:46.610 DEBUG: Mongoose webserver stopped immediately
+- 16:24:46.610 DEBUG: OnBeforeClose() hwnd=592862
+- 16:24:46.610 DEBUG: RemoveBrowserWindow(): hwnd = 592862
+- 16:24:46.610 DEBUG: GetBrowserWindow(): not found, hwnd = 592862
+- 16:24:46.625 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:24:46.625 DEBUG: Calling CefQuitMessageLoop()
+- 16:24:46.250 DEBUG: OnBrowserDestroyed()
+- 16:24:46.656 INFO: Ended application
+- 16:24:46.656 INFO: --------------------------------------------------------
+- 16:24:55.078 INFO: --------------------------------------------------------
+- 16:24:55.078 INFO: Started application
+- 16:24:55.078 INFO: Logging to: C:\Users\Taeuk\Desktop\Sangun's App\debug.log
+- 16:24:55.078 INFO: Log level = DEBUG4
+- 16:24:55.078 INFO: Starting Mongoose 3.9c web server
+- 16:24:55.078 INFO: WWW directory: C:\Users\Taeuk\Desktop\Sangun's App\www
+- 16:24:55.078 INFO: Index files: index.html,index.php
+- 16:24:55.078 INFO: CGI interpreter: C:\Users\Taeuk\Desktop\Sangun's App\php\php-cgi.exe
+- 16:24:55.078 INFO: CGI pattern: **.php$
+- 16:24:55.078 INFO: Hide files patterns: 
+- 16:24:55.078 INFO: CGI environment variables set: TMP=C:\Users\Taeuk\AppData\Local\Temp\,TEMP=C:\Users\Taeuk\AppData\Local\Temp\,TMPDIR=C:\Users\Taeuk\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 16:24:55.125 INFO: Web server url: http://127.0.0.1:55771/
+- 16:24:55.125 INFO: remote_debugging_port = 49583
+- 16:24:55.125 DEBUG: Command line string for the browser process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --remote-debugging-port=49583
+- 16:24:55.187 DEBUG: App::OnContextInitialized()
+- 16:24:55.187 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 16:24:55.187 DEBUG: Window max width/height = 1842/984
+- 16:24:55.187 DEBUG: GetBrowserWindow(): not found, hwnd = 11470720
+- 16:24:55.187 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:24:55.203 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:24:55.203 DEBUG: StoreBrowserWindow(): hwnd = 11470720
+- 16:24:55.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=gpu-process --channel="9668.0.148580214\1648101680" --no-sandbox --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4590 --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" /prefetch:822062411
+- 16:24:55.281 DEBUG: ClientHandler::OnAfterCreated()
+- 16:24:55.281 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:24:55.281 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:24:56.000 DEBUG: Command line string for the renderer process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="9668.1.1249778086\1200037647" /prefetch:673131151
+- 16:24:56.047 DEBUG: OnBrowserCreated()
+- 16:24:56.172 DEBUG: OnContextCreated()
+- 16:24:56.531 INFO: GET 200 /
+- 16:24:56.547 INFO: GET 200 /jquery.cookie.js
+- 16:24:56.547 INFO: GET 200 /com.js
+[0501/162456:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55771/com.js (1)
+- 16:24:56.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+- 16:24:56.781 INFO: GET 200 /init.php
+[0501/162502:INFO:CONSOLE(43)] "d,ddd,5/1/2017, 4:25:02 PM", source: http://127.0.0.1:55771/com.js (43)
+[0501/162502:INFO:CONSOLE(83)] "0_title=d & ", source: http://127.0.0.1:55771/com.js (83)
+[0501/162502:INFO:CONSOLE(93)] "0_text=ddd & ", source: http://127.0.0.1:55771/com.js (93)
+[0501/162502:INFO:CONSOLE(103)] "0_date=5/1/2017, 4:25:02 PM & ", source: http://127.0.0.1:55771/com.js (103)
+- 16:25:02.219 INFO: GET 200 /sangjun.php
+- 16:25:24.844 DEBUG: F5 pressed, reloading page
+- 16:25:24.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:25:24.594 DEBUG: OnContextCreated()
+- 16:25:24.953 INFO: GET 200 /
+- 16:25:24.953 INFO: GET 200 /jquery.cookie.js
+- 16:25:24.953 INFO: GET 200 /com.js
+[0501/162525:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55771/com.js (1)
+- 16:25:25.109 INFO: GET 200 /init.php
+- 16:25:26.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+- 16:28:31.422 DEBUG: F5 pressed, reloading page
+- 16:28:31.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:28:31.156 DEBUG: OnContextCreated()
+- 16:28:31.531 INFO: GET 200 /
+- 16:28:31.547 INFO: GET 200 /com.js
+- 16:28:31.547 INFO: GET 200 /jquery.cookie.js
+[0501/162832:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55771/com.js (1)
+- 16:28:32.687 INFO: GET 200 /init.php
+- 16:28:34.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+- 16:28:41.344 DEBUG: F5 pressed, reloading page
+- 16:28:41.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:28:41.078 DEBUG: OnContextCreated()
+- 16:28:41.453 INFO: GET 200 /
+- 16:28:41.453 INFO: GET 200 /jquery.cookie.js
+- 16:28:41.453 INFO: GET 200 /com.js
+[0501/162842:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55771/com.js (1)
+- 16:28:42.594 INFO: GET 200 /init.php
+- 16:28:43.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+[0501/162848:INFO:CONSOLE(43)] "dd,dddd,5/1/2017, 4:28:48 PM", source: http://127.0.0.1:55771/com.js (43)
+[0501/162848:INFO:CONSOLE(83)] "0_title=dd & ", source: http://127.0.0.1:55771/com.js (83)
+[0501/162848:INFO:CONSOLE(93)] "0_text=dddd & ", source: http://127.0.0.1:55771/com.js (93)
+[0501/162848:INFO:CONSOLE(103)] "0_date=5/1/2017, 4:28:48 PM & ", source: http://127.0.0.1:55771/com.js (103)
+- 16:28:48.219 INFO: GET 200 /sangjun.php
+- 16:30:09.140 DEBUG: F5 pressed, reloading page
+- 16:30:09.140 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:30:09.891 DEBUG: OnContextCreated()
+- 16:30:09.250 INFO: GET 200 /
+- 16:30:09.265 INFO: GET 200 /com.js
+- 16:30:09.265 INFO: GET 200 /jquery.cookie.js
+[0501/163011:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55771/com.js (1)
+- 16:30:11.562 INFO: GET 200 /init.php
+- 16:30:12.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+[0501/163016:INFO:CONSOLE(43)] "dd,ddd,5/1/2017, 4:30:16 PM", source: http://127.0.0.1:55771/com.js (43)
+[0501/163016:INFO:CONSOLE(83)] "0_title=dd & ", source: http://127.0.0.1:55771/com.js (83)
+[0501/163016:INFO:CONSOLE(93)] "0_text=ddd & ", source: http://127.0.0.1:55771/com.js (93)
+[0501/163016:INFO:CONSOLE(103)] "0_date=5/1/2017, 4:30:16 PM & ", source: http://127.0.0.1:55771/com.js (103)
+- 16:30:16.984 INFO: GET 200 /sangjun.php
+- 16:30:30.562 DEBUG: F12 pressed, opening developer tools
+- 16:30:30.594 DEBUG: ClientHandler::OnAfterCreated()
+- 16:30:30.594 DEBUG: GetBrowserWindow(): not found, hwnd = 5703924
+- 16:30:30.594 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 16:30:30.594 DEBUG: StoreBrowserWindow(): hwnd = 5703924
+- 16:30:30.594 DEBUG: Centering popup window relative to its parent
+- 16:30:30.609 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:30:30.016 DEBUG: Command line string for the renderer process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="9668.2.1287700126\50551302" /prefetch:673131151
+- 16:30:30.047 DEBUG: OnBrowserCreated()
+- 16:30:30.063 DEBUG: OnContextCreated()
+- 16:30:30.906 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 16:30:38.172 DEBUG: OnBeforeClose() hwnd=5703924
+- 16:30:38.172 DEBUG: RemoveBrowserWindow(): hwnd = 5703924
+- 16:30:38.485 DEBUG: OnBrowserDestroyed()
+- 16:31:25.844 DEBUG: F5 pressed, reloading page
+- 16:31:25.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:31:25.578 DEBUG: OnContextCreated()
+- 16:31:25.953 INFO: GET 200 /jquery.cookie.js
+- 16:31:25.953 INFO: GET 200 /
+- 16:31:25.953 INFO: GET 200 /com.js
+[0501/163126:INFO:CONSOLE(1)] "1", source: http://127.0.0.1:55771/com.js (1)
+- 16:31:26.000 INFO: GET 200 /init.php
+- 16:31:28.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+[0501/163131:INFO:CONSOLE(43)] "dd,dd,5/1/2017, 4:31:31 PM", source: http://127.0.0.1:55771/com.js (43)
+[0501/163131:INFO:CONSOLE(83)] "0_title=dd & ", source: http://127.0.0.1:55771/com.js (83)
+[0501/163131:INFO:CONSOLE(93)] "0_text=dd & ", source: http://127.0.0.1:55771/com.js (93)
+[0501/163131:INFO:CONSOLE(103)] "0_date=5/1/2017, 4:31:31 PM & ", source: http://127.0.0.1:55771/com.js (103)
+- 16:31:31.187 INFO: GET 200 /sangjun.php
+- 16:39:47.969 DEBUG: F5 pressed, reloading page
+- 16:39:47.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:39:47.719 DEBUG: OnContextCreated()
+- 16:39:47.078 INFO: GET 200 /
+- 16:39:47.078 INFO: GET 200 /jquery.cookie.js
+- 16:39:47.078 INFO: GET 200 /com.js
+- 16:39:48.234 INFO: GET 200 /init.php
+- 16:39:49.265 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+[0501/163957:INFO:CONSOLE(44)] "ㅇㅅㅇㅇㅇ,ㅇㅇ,5/1/2017, 4:39:57 PM", source: http://127.0.0.1:55771/com.js (44)
+[0501/163957:INFO:CONSOLE(84)] "0_title=ㅇㅅㅇㅇㅇ & ", source: http://127.0.0.1:55771/com.js (84)
+[0501/163957:INFO:CONSOLE(94)] "0_text=ㅇㅇ & ", source: http://127.0.0.1:55771/com.js (94)
+[0501/163957:INFO:CONSOLE(104)] "0_date=5/1/2017, 4:39:57 PM & ", source: http://127.0.0.1:55771/com.js (104)
+- 16:39:57.781 INFO: GET 200 /sangjun.php
+- 16:40:00.625 DEBUG: F5 pressed, reloading page
+- 16:40:00.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:40:00.360 DEBUG: OnContextCreated()
+- 16:40:00.734 INFO: GET 200 /
+- 16:40:00.734 INFO: GET 200 /com.js
+- 16:40:00.734 INFO: GET 200 /jquery.cookie.js
+- 16:40:01.078 INFO: GET 200 /init.php
+- 16:40:03.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+- 16:42:00.953 DEBUG: F5 pressed, reloading page
+- 16:42:00.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:42:00.703 DEBUG: OnContextCreated()
+- 16:42:00.062 INFO: GET 200 /
+- 16:42:00.078 INFO: GET 200 /jquery.cookie.js
+- 16:42:00.078 INFO: GET 200 /com.js
+- 16:42:01.203 INFO: GET 200 /init.php
+- 16:42:02.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+- 16:42:04.781 DEBUG: F5 pressed, reloading page
+- 16:42:04.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:42:04.516 DEBUG: OnContextCreated()
+- 16:42:04.890 INFO: GET 200 /
+- 16:42:04.890 INFO: GET 200 /com.js
+- 16:42:04.890 INFO: GET 200 /jquery.cookie.js
+- 16:42:05.531 INFO: GET 200 /init.php
+- 16:42:09.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+[0501/164213:INFO:CONSOLE(44)] "ㅇ,ㅇㅇㅇ,5/1/2017, 4:42:13 PM", source: http://127.0.0.1:55771/com.js (44)
+[0501/164213:INFO:CONSOLE(84)] "0_title=ㅇ & ", source: http://127.0.0.1:55771/com.js (84)
+[0501/164213:INFO:CONSOLE(94)] "0_text=ㅇㅇㅇ & ", source: http://127.0.0.1:55771/com.js (94)
+[0501/164213:INFO:CONSOLE(104)] "0_date=5/1/2017, 4:42:13 PM & ", source: http://127.0.0.1:55771/com.js (104)
+- 16:42:14.453 INFO: GET 200 /sangjun.php
+- 16:42:45.328 DEBUG: F5 pressed, reloading page
+- 16:42:46.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:42:46.078 DEBUG: OnContextCreated()
+- 16:42:46.453 INFO: GET 200 /
+- 16:42:46.453 INFO: GET 200 /com.js
+- 16:42:46.453 INFO: GET 200 /jquery.cookie.js
+- 16:42:47.578 INFO: GET 200 /init.php
+- 16:42:48.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+[0501/164252:INFO:CONSOLE(44)] "ㅇㅇㅇㅇ,ㅇ,5/1/2017, 4:42:52 PM", source: http://127.0.0.1:55771/com.js (44)
+[0501/164252:INFO:CONSOLE(84)] "0_title=ㅇㅇㅇㅇ & ", source: http://127.0.0.1:55771/com.js (84)
+[0501/164252:INFO:CONSOLE(94)] "0_text=ㅇ & ", source: http://127.0.0.1:55771/com.js (94)
+[0501/164252:INFO:CONSOLE(104)] "0_date=5/1/2017, 4:42:52 PM & ", source: http://127.0.0.1:55771/com.js (104)
+- 16:42:52.859 INFO: GET 200 /sangjun.php
+- 16:44:09.156 DEBUG: F5 pressed, reloading page
+- 16:44:09.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:44:09.906 DEBUG: OnContextCreated()
+- 16:44:09.265 INFO: GET 200 /
+- 16:44:09.265 INFO: GET 200 /jquery.cookie.js
+- 16:44:09.265 INFO: GET 200 /com.js
+- 16:44:11.406 INFO: GET 200 /init.php
+- 16:44:12.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+[0501/164416:INFO:CONSOLE(44)] "ㅇㅇㅇ,ㅇㅇ,5/1/2017, 4:44:16 PM", source: http://127.0.0.1:55771/com.js (44)
+[0501/164417:INFO:CONSOLE(94)] "0_text=ㅇㅇ & ", source: http://127.0.0.1:55771/com.js (94)
+[0501/164417:INFO:CONSOLE(104)] "0_date=5/1/2017, 4:44:16 PM & ", source: http://127.0.0.1:55771/com.js (104)
+- 16:44:17.281 INFO: GET 200 /sangjun.php
+- 16:46:09.734 DEBUG: F5 pressed, reloading page
+- 16:46:09.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:46:09.797 DEBUG: F5 pressed, reloading page
+- 16:46:09.797 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:55771/
+- 16:46:09.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+- 16:46:09.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:46:09.844 INFO: GET 200 /
+- 16:46:09.547 DEBUG: OnContextCreated()
+- 16:46:09.906 INFO: GET 200 /
+- 16:46:09.906 INFO: GET 200 /jquery.cookie.js
+- 16:46:09.906 INFO: GET 200 /com.js
+- 16:46:10.890 INFO: GET 200 /init.php
+- 16:46:11.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+[0501/164616:INFO:CONSOLE(45)] "ㅇㅇㅇ ,ㅇㅇ ,5/1/2017, 4:44:16 PM ,ㅇㅇㅇ,ㅇㅇ,5/1/2017, 4:46:16 PM", source: http://127.0.0.1:55771/com.js (45)
+[0501/164616:INFO:CONSOLE(95)] "0_text=ㅇㅇ  & 1_text=ㅇㅇ & ", source: http://127.0.0.1:55771/com.js (95)
+[0501/164616:INFO:CONSOLE(105)] "0_date=5/1/2017, 4:44:16 PM  & 1_date=5/1/2017, 4:46:16 PM & ", source: http://127.0.0.1:55771/com.js (105)
+- 16:46:16.594 INFO: GET 200 /sangjun.php
+- 16:46:19.969 DEBUG: F5 pressed, reloading page
+- 16:46:19.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55771/
+- 16:46:19.703 DEBUG: OnContextCreated()
+- 16:46:19.078 INFO: GET 200 /
+- 16:46:19.078 INFO: GET 200 /jquery.cookie.js
+- 16:46:19.078 INFO: GET 200 /com.js
+- 16:46:20.109 INFO: GET 200 /init.php
+- 16:46:22.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55771/
+- 16:46:25.640 DEBUG: WM_DESTROY
+- 16:46:25.640 DEBUG: RemoveBrowserWindow(): hwnd = 11470720
+- 16:46:25.656 INFO: Stopping Mongoose web server
+- 16:46:25.656 DEBUG: Mongoose webserver stopped immediately
+- 16:46:25.656 DEBUG: OnBeforeClose() hwnd=5180386
+- 16:46:25.656 DEBUG: RemoveBrowserWindow(): hwnd = 5180386
+- 16:46:25.656 DEBUG: GetBrowserWindow(): not found, hwnd = 5180386
+- 16:46:25.656 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:46:25.656 DEBUG: Calling CefQuitMessageLoop()
+- 16:46:25.313 DEBUG: OnBrowserDestroyed()
+- 16:46:25.687 INFO: Ended application
+- 16:46:25.687 INFO: --------------------------------------------------------
+- 16:46:32.093 INFO: --------------------------------------------------------
+- 16:46:32.093 INFO: Started application
+- 16:46:32.093 INFO: Logging to: C:\Users\Taeuk\Desktop\Sangun's App\debug.log
+- 16:46:32.093 INFO: Log level = DEBUG4
+- 16:46:32.093 INFO: Starting Mongoose 3.9c web server
+- 16:46:32.093 INFO: WWW directory: C:\Users\Taeuk\Desktop\Sangun's App\www
+- 16:46:32.093 INFO: Index files: index.html,index.php
+- 16:46:32.093 INFO: CGI interpreter: C:\Users\Taeuk\Desktop\Sangun's App\php\php-cgi.exe
+- 16:46:32.093 INFO: CGI pattern: **.php$
+- 16:46:32.093 INFO: Hide files patterns: 
+- 16:46:32.093 INFO: CGI environment variables set: TMP=C:\Users\Taeuk\AppData\Local\Temp\,TEMP=C:\Users\Taeuk\AppData\Local\Temp\,TMPDIR=C:\Users\Taeuk\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 16:46:32.140 INFO: Web server url: http://127.0.0.1:55932/
+- 16:46:32.140 INFO: remote_debugging_port = 63111
+- 16:46:32.140 DEBUG: Command line string for the browser process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --remote-debugging-port=63111
+- 16:46:32.203 DEBUG: App::OnContextInitialized()
+- 16:46:32.203 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 16:46:32.203 DEBUG: Window max width/height = 1842/984
+- 16:46:32.203 DEBUG: GetBrowserWindow(): not found, hwnd = 31591346
+- 16:46:32.203 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:46:32.203 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:46:32.203 DEBUG: StoreBrowserWindow(): hwnd = 31591346
+- 16:46:32.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=gpu-process --channel="6988.0.1958716431\1114204540" --no-sandbox --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x5912 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4590 --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" /prefetch:822062411
+- 16:46:32.297 DEBUG: ClientHandler::OnAfterCreated()
+- 16:46:32.297 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:46:32.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:46:32.000 DEBUG: Command line string for the renderer process: "C:\Users\Taeuk\Desktop\Sangun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\Taeuk\Desktop\Sangun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="6988.1.1712708808\432476691" /prefetch:673131151
+- 16:46:32.047 DEBUG: OnBrowserCreated()
+- 16:46:32.547 INFO: GET 200 /
+- 16:46:32.172 DEBUG: OnContextCreated()
+- 16:46:32.547 INFO: GET 200 /jquery.cookie.js
+- 16:46:32.547 INFO: GET 200 /com.js
+- 16:46:32.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55932/
+- 16:46:32.797 INFO: GET 200 /init.php
+- 16:46:36.422 DEBUG: WM_DESTROY
+- 16:46:36.422 DEBUG: RemoveBrowserWindow(): hwnd = 31591346
+- 16:46:36.422 INFO: Stopping Mongoose web server
+- 16:46:36.422 DEBUG: Mongoose webserver stopped immediately
+- 16:46:36.422 DEBUG: OnBeforeClose() hwnd=591184
+- 16:46:36.422 DEBUG: RemoveBrowserWindow(): hwnd = 591184
+- 16:46:36.422 DEBUG: GetBrowserWindow(): not found, hwnd = 591184
+- 16:46:36.422 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:46:36.422 DEBUG: Calling CefQuitMessageLoop()
+- 16:46:36.047 DEBUG: OnBrowserDestroyed()
+[0501/164636:ERROR:ipc_channel_win.cc(207)] pipe error: 109
+- 16:46:36.468 INFO: Ended application
+- 16:46:36.468 INFO: --------------------------------------------------------
+- 22:03:09.078 INFO: --------------------------------------------------------
+- 22:03:09.078 INFO: Started application
+- 22:03:09.078 INFO: Logging to: D:\project\university\Sangjun's App\debug.log
+- 22:03:09.078 INFO: Log level = DEBUG4
+- 22:03:09.078 INFO: Starting Mongoose 3.9c web server
+- 22:03:09.078 INFO: WWW directory: D:\project\university\Sangjun's App\www
+- 22:03:09.078 INFO: Index files: index.html,index.php
+- 22:03:09.078 INFO: CGI interpreter: D:\project\university\Sangjun's App\php\php-cgi.exe
+- 22:03:09.078 INFO: CGI pattern: **.php$
+- 22:03:09.078 INFO: Hide files patterns: 
+- 22:03:09.078 INFO: CGI environment variables set: TMP=C:\Users\gongj\AppData\Local\Temp\,TEMP=C:\Users\gongj\AppData\Local\Temp\,TMPDIR=C:\Users\gongj\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 22:03:09.109 INFO: Web server url: http://127.0.0.1:9409/
+- 22:03:09.109 INFO: remote_debugging_port = 51900
+- 22:03:09.109 DEBUG: Command line string for the browser process: "D:\project\university\Sangjun's App\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\project\university\Sangjun's App\debug.log" --remote-debugging-port=51900
+- 22:03:09.156 DEBUG: App::OnContextInitialized()
+- 22:03:09.156 DEBUG: Window max width/height = 1840/992
+- 22:03:09.156 DEBUG: GetBrowserWindow(): not found, hwnd = 3017566
+- 22:03:09.156 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:03:09.156 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:03:09.156 DEBUG: StoreBrowserWindow(): hwnd = 3017566
+- 22:03:09.188 DEBUG: ClientHandler::OnAfterCreated()
+- 22:03:09.188 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:03:09.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:03:09.000 DEBUG: Command line string for the gpu-process process: "D:\project\university\Sangjun's App\phpdesktop-chrome.exe" --type=gpu-process --channel="9180.0.1480225191\1741558040" --no-sandbox --lang=en-US --log-file="D:\project\university\Sangjun's App\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,12,23,51,61 --gpu-vendor-id=0x10de --gpu-device-id=0x1c03 --gpu-driver-vendor=NVIDIA --gpu-driver-version=22.21.13.8165 --lang=en-US --log-file="D:\project\university\Sangjun's App\debug.log" /prefetch:822062411
+- 22:03:09.000 DEBUG: Command line string for the renderer process: "D:\project\university\Sangjun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\project\university\Sangjun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="9180.1.1429991807\797226922" /prefetch:673131151
+- 22:03:09.031 DEBUG: OnBrowserCreated()
+- 22:03:11.406 DEBUG: OnContextCreated()
+- 22:03:11.656 INFO: GET 200 /
+- 22:03:11.656 INFO: GET 200 /com.js
+- 22:03:11.656 INFO: GET 200 /jquery.cookie.js
+- 22:03:11.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:9409/
+- 22:03:11.828 INFO: GET 200 /init.php
+- 22:03:14.375 DEBUG: WM_DESTROY
+- 22:03:14.375 DEBUG: RemoveBrowserWindow(): hwnd = 3017566
+- 22:03:14.375 INFO: Stopping Mongoose web server
+- 22:03:14.375 DEBUG: Mongoose webserver stopped immediately
+- 22:03:14.375 DEBUG: OnBeforeClose() hwnd=855414
+- 22:03:14.375 DEBUG: RemoveBrowserWindow(): hwnd = 855414
+- 22:03:14.375 DEBUG: GetBrowserWindow(): not found, hwnd = 855414
+- 22:03:14.375 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:03:14.391 DEBUG: Calling CefQuitMessageLoop()
+- 22:03:14.141 DEBUG: OnBrowserDestroyed()
+- 22:03:14.469 INFO: Ended application
+- 22:03:14.469 INFO: --------------------------------------------------------
+- 22:04:40.062 INFO: --------------------------------------------------------
+- 22:04:40.062 INFO: Started application
+- 22:04:40.062 INFO: Logging to: D:\project\University\Sangjun's App\debug.log
+- 22:04:40.062 INFO: Log level = DEBUG4
+- 22:04:40.062 INFO: Starting Mongoose 3.9c web server
+- 22:04:40.062 INFO: WWW directory: D:\project\University\Sangjun's App\www
+- 22:04:40.062 INFO: Index files: index.html,index.php
+- 22:04:40.062 INFO: CGI interpreter: D:\project\University\Sangjun's App\php\php-cgi.exe
+- 22:04:40.062 INFO: CGI pattern: **.php$
+- 22:04:40.062 INFO: Hide files patterns: 
+- 22:04:40.062 INFO: CGI environment variables set: TMP=C:\Users\gongj\AppData\Local\Temp\,TEMP=C:\Users\gongj\AppData\Local\Temp\,TMPDIR=C:\Users\gongj\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 22:04:40.078 INFO: Web server url: http://127.0.0.1:9504/
+- 22:04:40.078 INFO: remote_debugging_port = 58095
+- 22:04:40.078 DEBUG: Command line string for the browser process: "D:\project\University\Sangjun's App\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\project\University\Sangjun's App\debug.log" --remote-debugging-port=58095
+- 22:04:40.125 DEBUG: App::OnContextInitialized()
+- 22:04:40.125 DEBUG: Window max width/height = 1840/992
+- 22:04:40.125 DEBUG: GetBrowserWindow(): not found, hwnd = 854318
+- 22:04:40.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:04:40.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:04:40.125 DEBUG: StoreBrowserWindow(): hwnd = 854318
+- 22:04:40.000 DEBUG: Command line string for the gpu-process process: "D:\project\University\Sangjun's App\phpdesktop-chrome.exe" --type=gpu-process --channel="1612.0.99244569\1814817451" --no-sandbox --lang=en-US --log-file="D:\project\University\Sangjun's App\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,12,23,51,61 --gpu-vendor-id=0x10de --gpu-device-id=0x1c03 --gpu-driver-vendor=NVIDIA --gpu-driver-version=22.21.13.8165 --lang=en-US --log-file="D:\project\University\Sangjun's App\debug.log" /prefetch:822062411
+- 22:04:40.187 DEBUG: ClientHandler::OnAfterCreated()
+- 22:04:40.187 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:04:40.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:04:40.000 DEBUG: Command line string for the renderer process: "D:\project\University\Sangjun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\project\University\Sangjun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="1612.1.610043847\946917871" /prefetch:673131151
+- 22:04:40.015 DEBUG: OnBrowserCreated()
+- 22:04:41.093 DEBUG: OnContextCreated()
+- 22:04:41.359 INFO: GET 200 /
+- 22:04:41.359 INFO: GET 200 /jquery.cookie.js
+- 22:04:41.359 INFO: GET 200 /com.js
+- 22:04:42.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:9504/
+- 22:04:42.516 INFO: GET 200 /init.php
+[0501/220443:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220443:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220445:WARNING:event.cc(762)] DomCode::NONE keycode=229
+[0501/220445:INFO:CONSOLE(51)] "run", source: http://127.0.0.1:9504/com.js (51)
+[0501/220445:INFO:CONSOLE(51)] "run", source: http://127.0.0.1:9504/com.js (51)
+[0501/220449:WARNING:event.cc(762)] DomCode::NONE keycode=229
+[0501/220452:INFO:CONSOLE(78)] "ㅇㅇㅇ  ,ㅇㅇ ,5/1/2017, 4:46:16 PM ,ㅇㅇㅇ ,ㅇㅇ ,5/1/2017, 4:46:16 PM ,test,test,5/1/2017, 10:04:52 PM", source: http://127.0.0.1:9504/com.js (78)
+[0501/220452:INFO:CONSOLE(128)] "0_text=ㅇㅇ  & 1_text=ㅇㅇ  & 2_text=test & ", source: http://127.0.0.1:9504/com.js (128)
+[0501/220452:INFO:CONSOLE(138)] "0_date=5/1/2017, 4:46:16 PM  & 1_date=5/1/2017, 4:46:16 PM  & 2_date=5/1/2017, 10:04:52 PM & ", source: http://127.0.0.1:9504/com.js (138)
+- 22:04:52.125 INFO: GET 200 /sangjun.php
+[0501/220456:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220456:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220456:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220457:WARNING:event.cc(762)] DomCode::NONE keycode=229
+[0501/220457:INFO:CONSOLE(51)] "run", source: http://127.0.0.1:9504/com.js (51)
+[0501/220457:INFO:CONSOLE(51)] "run", source: http://127.0.0.1:9504/com.js (51)
+[0501/220457:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220501:WARNING:event.cc(762)] DomCode::NONE keycode=229
+[0501/220502:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220502:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220502:INFO:CONSOLE(51)] "run", source: http://127.0.0.1:9504/com.js (51)
+[0501/220517:INFO:CONSOLE(78)] "ㅇㅇㅇ  ,ㅇㅇ ,5/1/2017, 4:46:16 PM ,ㅇㅇㅇ ,ㅇㅇ ,5/1/2017, 4:46:16 PM ,test,test,5/1/2017, 10:04:52 PM,return,return,5/1/2017, 10:05:17 PM", source: http://127.0.0.1:9504/com.js (78)
+[0501/220517:INFO:CONSOLE(128)] "0_text=ㅇㅇ  & 1_text=ㅇㅇ  & 2_text=test & 3_text=return & ", source: http://127.0.0.1:9504/com.js (128)
+[0501/220517:INFO:CONSOLE(138)] "0_date=5/1/2017, 4:46:16 PM  & 1_date=5/1/2017, 4:46:16 PM  & 2_date=5/1/2017, 10:04:52 PM & 3_date=5/1/2017, 10:05:17 PM & ", source: http://127.0.0.1:9504/com.js (138)
+- 22:05:17.359 INFO: GET 200 /sangjun.php
+[0501/220522:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220522:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220522:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220522:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220525:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220525:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220525:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/220525:INFO:CONSOLE(51)] "run", source: http://127.0.0.1:9504/com.js (51)
+- 22:07:03.328 DEBUG: F5 pressed, reloading page
+- 22:07:03.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:9504/
+- 22:07:03.125 DEBUG: OnContextCreated()
+- 22:07:03.391 INFO: GET 200 /jquery.cookie.js
+- 22:07:03.391 INFO: GET 200 /com.js
+- 22:07:03.391 INFO: GET 200 /
+- 22:07:04.125 INFO: GET 200 /init.php
+- 22:07:04.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:9504/
+- 22:07:32.984 DEBUG: F5 pressed, reloading page
+- 22:07:32.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:9504/
+- 22:07:32.781 DEBUG: OnContextCreated()
+- 22:07:32.062 INFO: GET 200 /
+- 22:07:32.062 INFO: GET 200 /com.js
+- 22:07:32.062 INFO: GET 200 /jquery.cookie.js
+- 22:07:33.781 INFO: GET 200 /init.php
+- 22:07:33.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:9504/
+- 22:07:54.094 DEBUG: F5 pressed, reloading page
+- 22:07:54.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:9504/
+- 22:07:54.890 DEBUG: OnContextCreated()
+- 22:07:54.156 INFO: GET 200 /jquery.cookie.js
+- 22:07:54.156 INFO: GET 200 /com.js
+- 22:07:54.156 INFO: GET 200 /
+- 22:07:55.906 INFO: GET 200 /init.php
+- 22:07:57.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:9504/
+- 22:08:17.578 DEBUG: F5 pressed, reloading page
+- 22:08:17.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:9504/
+- 22:08:17.375 DEBUG: OnContextCreated()
+- 22:08:17.641 INFO: GET 200 /jquery.cookie.js
+- 22:08:17.641 INFO: GET 200 /com.js
+- 22:08:17.656 INFO: GET 200 /
+- 22:08:17.391 INFO: GET 200 /init.php
+- 22:08:18.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:9504/
+- 22:08:46.734 DEBUG: F5 pressed, reloading page
+- 22:08:46.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:9504/
+- 22:08:46.531 DEBUG: OnContextCreated()
+- 22:08:46.812 INFO: GET 200 /
+- 22:08:46.812 INFO: GET 200 /com.js
+- 22:08:46.812 INFO: GET 200 /jquery.cookie.js
+- 22:08:47.562 INFO: GET 200 /init.php
+- 22:08:47.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:9504/
+- 22:09:04.266 DEBUG: F5 pressed, reloading page
+- 22:09:04.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:9504/
+- 22:09:04.062 DEBUG: OnContextCreated()
+- 22:09:04.328 INFO: GET 200 /com.js
+- 22:09:04.328 INFO: GET 200 /jquery.cookie.js
+- 22:09:04.328 INFO: GET 200 /
+- 22:09:06.391 INFO: GET 200 /init.php
+- 22:09:07.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:9504/
+- 22:09:33.812 DEBUG: F5 pressed, reloading page
+- 22:09:33.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:9504/
+- 22:09:33.609 DEBUG: OnContextCreated()
+- 22:09:33.875 INFO: GET 200 /com.js
+- 22:09:33.875 INFO: GET 200 /jquery.cookie.js
+- 22:09:33.875 INFO: GET 200 /
+- 22:09:34.609 INFO: GET 200 /init.php
+- 22:09:34.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:9504/
+- 22:10:47.969 DEBUG: F5 pressed, reloading page
+- 22:10:47.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:9504/
+- 22:10:47.781 DEBUG: OnContextCreated()
+- 22:10:47.047 INFO: GET 200 /jquery.cookie.js
+- 22:10:47.047 INFO: GET 200 /com.js
+- 22:10:47.047 INFO: GET 200 /
+- 22:10:48.766 INFO: GET 200 /init.php
+- 22:10:48.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:9504/
+[0501/221146:INFO:CONSOLE(78)] "ㅇㅇㅇ   ,return ,5/1/2017, 10:05:17 PM ,ㅇㅇㅇ  ,return ,5/1/2017, 10:05:17 PM ,test ,return ,5/1/2017, 10:05:17 PM ,return ,return ,5/1/2017, 10:05:17 PM ,save,save,5/1/2017, 10:11:46 PM", source: http://127.0.0.1:9504/com.js (78)
+[0501/221147:INFO:CONSOLE(128)] "0_text=return  & 1_text=return  & 2_text=return  & 3_text=return  & 4_text=save & ", source: http://127.0.0.1:9504/com.js (128)
+[0501/221147:INFO:CONSOLE(138)] "0_date=5/1/2017, 10:05:17 PM  & 1_date=5/1/2017, 10:05:17 PM  & 2_date=5/1/2017, 10:05:17 PM  & 3_date=5/1/2017, 10:05:17 PM  & 4_date=5/1/2017, 10:11:46 PM & ", source: http://127.0.0.1:9504/com.js (138)
+- 22:11:47.094 INFO: GET 200 /sangjun.php
+[0501/221216:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/221216:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/221216:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/221216:INFO:CONSOLE(66)] "못찾음", source: http://127.0.0.1:9504/com.js (66)
+[0501/221216:INFO:CONSOLE(51)] "run", source: http://127.0.0.1:9504/com.js (51)
+- 22:12:30.406 DEBUG: WM_DESTROY
+- 22:12:30.406 DEBUG: RemoveBrowserWindow(): hwnd = 854318
+- 22:12:30.406 INFO: Stopping Mongoose web server
+- 22:12:30.406 DEBUG: Mongoose webserver stopped immediately
+- 22:12:30.422 DEBUG: OnBeforeClose() hwnd=855036
+- 22:12:30.422 DEBUG: RemoveBrowserWindow(): hwnd = 855036
+- 22:12:30.422 DEBUG: GetBrowserWindow(): not found, hwnd = 855036
+- 22:12:30.422 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:12:30.422 DEBUG: Calling CefQuitMessageLoop()
+- 22:12:31.156 DEBUG: OnBrowserDestroyed()
+- 22:12:31.453 INFO: Ended application
+- 22:12:31.453 INFO: --------------------------------------------------------
