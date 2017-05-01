@@ -930,3 +930,47 @@
 - 22:12:31.156 DEBUG: OnBrowserDestroyed()
 - 22:12:31.453 INFO: Ended application
 - 22:12:31.453 INFO: --------------------------------------------------------
+- 22:32:24.062 INFO: --------------------------------------------------------
+- 22:32:24.062 INFO: Started application
+- 22:32:24.062 INFO: Logging to: D:\project\University\Sangjun's App\debug.log
+- 22:32:24.062 INFO: Log level = DEBUG4
+- 22:32:24.062 INFO: Starting Mongoose 3.9c web server
+- 22:32:24.062 INFO: WWW directory: D:\project\University\Sangjun's App\www
+- 22:32:24.062 INFO: Index files: index.html,index.php
+- 22:32:24.062 INFO: CGI interpreter: D:\project\University\Sangjun's App\php\php-cgi.exe
+- 22:32:24.062 INFO: CGI pattern: **.php$
+- 22:32:24.062 INFO: Hide files patterns: 
+- 22:32:24.062 INFO: CGI environment variables set: TMP=C:\Users\gongj\AppData\Local\Temp\,TEMP=C:\Users\gongj\AppData\Local\Temp\,TMPDIR=C:\Users\gongj\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 22:32:24.078 INFO: Web server url: http://127.0.0.1:11848/
+- 22:32:24.078 INFO: remote_debugging_port = 57951
+- 22:32:24.078 DEBUG: Command line string for the browser process: "D:\project\University\Sangjun's App\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\project\University\Sangjun's App\debug.log" --remote-debugging-port=57951
+- 22:32:24.125 DEBUG: App::OnContextInitialized()
+- 22:32:24.125 DEBUG: Window max width/height = 1840/992
+- 22:32:24.125 DEBUG: GetBrowserWindow(): not found, hwnd = 855174
+- 22:32:24.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:32:24.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:32:24.125 DEBUG: StoreBrowserWindow(): hwnd = 855174
+- 22:32:24.000 DEBUG: Command line string for the gpu-process process: "D:\project\University\Sangjun's App\phpdesktop-chrome.exe" --type=gpu-process --channel="12632.0.1950162078\293455637" --no-sandbox --lang=en-US --log-file="D:\project\University\Sangjun's App\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,12,23,51,61 --gpu-vendor-id=0x10de --gpu-device-id=0x1c03 --gpu-driver-vendor=NVIDIA --gpu-driver-version=22.21.13.8165 --lang=en-US --log-file="D:\project\University\Sangjun's App\debug.log" /prefetch:822062411
+- 22:32:24.187 DEBUG: ClientHandler::OnAfterCreated()
+- 22:32:24.187 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:32:24.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:32:24.000 DEBUG: Command line string for the renderer process: "D:\project\University\Sangjun's App\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\project\University\Sangjun's App\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="12632.1.1580874327\189763397" /prefetch:673131151
+- 22:32:24.015 DEBUG: OnBrowserCreated()
+- 22:32:26.093 DEBUG: OnContextCreated()
+- 22:32:26.343 INFO: GET 200 /
+- 22:32:26.359 INFO: GET 200 /jquery.cookie.js
+- 22:32:26.359 INFO: GET 200 /com.js
+- 22:32:26.468 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11848/
+- 22:32:26.515 INFO: GET 200 /init.php
+- 22:36:52.203 DEBUG: WM_DESTROY
+- 22:36:52.203 DEBUG: RemoveBrowserWindow(): hwnd = 855174
+- 22:36:52.203 INFO: Stopping Mongoose web server
+- 22:36:52.203 DEBUG: Mongoose webserver stopped immediately
+- 22:36:52.203 DEBUG: OnBeforeClose() hwnd=199992
+- 22:36:52.203 DEBUG: RemoveBrowserWindow(): hwnd = 199992
+- 22:36:52.203 DEBUG: GetBrowserWindow(): not found, hwnd = 199992
+- 22:36:52.203 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:36:52.203 DEBUG: Calling CefQuitMessageLoop()
+- 22:36:52.968 DEBUG: OnBrowserDestroyed()
+- 22:36:53.906 INFO: Ended application
+- 22:36:53.906 INFO: --------------------------------------------------------
